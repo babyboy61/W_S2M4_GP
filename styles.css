@@ -1,1 +1,72 @@
 /* styles here */
+body{
+    margin:10px;
+    padding: 6px;
+    line-height: 1.3;
+    background-color: aquamarine;
+
+   
+   /* border: 3px dashed grey; */
+}
+
+
+a[ href="https://www.gutenberg.org"]{
+    color: darkcyan;
+}
+nav a{
+    color: orange;
+    text-decoration: none;
+    padding: 1rem;
+    margin: 2%;
+    border: 3px solid lawngreen;
+}
+a{
+    color: yellowgreen;
+}
+nav{
+    text-align: center;
+}
+h1,h2,h3{
+    margin: 1.5rem;
+    text-align: center;
+}
+.smallish{
+    font-size: 0.8rem;
+}
+.legal{
+    
+    margin-bottom:1.5rem ;
+}
+.separator{
+    margin: 2rem;
+   
+    text-align: center;
+}
+.separator::before,
+.separator::after{
+    content: '***';
+    /*sudo elements*/
+}
+.chapter{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.chapter>p{
+margin-top: 1rem;
+margin-bottom: 1rem;
+margin: 1rem 0 1rem 0;
+text-align: justify;
+}
+p:nth-of-type(1){
+    text-align: center;
+}
+p:nth-of-type(2){
+    text-align: right;
+}
+p:nth-of-type(3)::first-line{
+    text-align: center;
+    font-weight: bold;
+}
+p:nth-of-type(3)::first-letter{
+    font-size: 2em;
+}
